@@ -1,0 +1,56 @@
+# ~/.config/ghostty/config
+# Ghostty Configuration 
+
+# Font
+font-family = "JetBrains Mono"
+font-feature = "-calt"
+font-size = 19
+
+# Behavior
+scrollback-limit = 10000
+window-inherit-working-directory = true
+mouse-hide-while-typing = true
+clipboard-trim-trailing-spaces = true
+quit-after-last-window-closed = true
+shell-integration = detect
+window-vsync = true
+mouse-scroll-multiplier = 1.5
+cursor-click-to-move = true
+minimum-contrast = 1.5
+window-save-state = always
+
+# macOS
+macos-option-as-alt = true
+macos-titlebar-style = hidden
+
+# Appearance
+background = "#1a1b26"
+foreground = "#c0caf5"
+cursor-style = block
+cursor-color = "#bb9af7"
+cursor-style-blink = true
+window-padding-x = 10
+window-padding-y = 10
+split-divider-color = "#414868"
+unfocused-split-opacity = 0.8
+selection-background = "#414868"
+selection-foreground = "#c0caf5"
+alpha-blending = linear-corrected
+
+# Tokyo Night palette
+palette = 0=#1a1b26
+palette = 1=#f7768e
+palette = 2=#9ece6a
+palette = 3=#e0af68
+palette = 4=#7aa2f7
+palette = 5=#bb9af7
+palette = 6=#7dcfff
+palette = 7=#a9b1d6
+palette = 8=#414868
+palette = 9=#f7768e
+palette = 10=#9ece6a
+palette = 11=#e0af68
+palette = 12=#7aa2f7
+palette = 13=#bb9af7
+palette = 14=#7dcfff
+palette = 15=#c0caf5
