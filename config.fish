@@ -9,5 +9,9 @@ if status is-interactive
     alias ls='ls -rthG'
     alias genpass='python3 ~/genpass.py'
 
+    function caff
+    nohup caffeinate -umdt 36000 >/dev/null 2>&1 & disown
+    end
+
     set -g fish_history save
 end
