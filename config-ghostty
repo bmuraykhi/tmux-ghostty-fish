@@ -1,8 +1,7 @@
-# ~/.config/ghostty/config
-# Ghostty Configuration 
+# Ghostty Configuration
 
 # Font
-font-family = "JetBrains Mono"
+font-family = "FiraCode Nerd Font"
 font-feature = "-calt"
 font-size = 19
 
